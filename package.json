@@ -5,9 +5,7 @@
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
-    "build:ghp": "ng build --prod --base-href \"https://razionasukaru.github.io/angular-gh-pages\"",
-    "deploy:ghp": "npx angular-cli-ghpages --dir=dist/angular-gh-pages",
-    "deploy": "ng deploy --base-href=/angular-gh-pages/",
+    "deploy": "ng deploy --base-href=/agung-sari-baja-web/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
