@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-gh-pages": {
+    "agung-sari-baja-web": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-gh-pages",
+            "outputPath": "dist/agung-sari-baja-web",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-gh-pages:build"
+            "browserTarget": "agung-sari-baja-web:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-gh-pages:build:production"
+              "browserTarget": "agung-sari-baja-web:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-gh-pages:build"
+            "browserTarget": "agung-sari-baja-web:build"
           }
         },
         "test": {
@@ -119,11 +119,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-gh-pages:serve"
+            "devServerTarget": "agung-sari-baja-web:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-gh-pages:serve:production"
+              "devServerTarget": "agung-sari-baja-web:serve:production"
             }
           }
         },
@@ -134,5 +134,5 @@
       }
     }
   },
-  "defaultProject": "angular-gh-pages"
+  "defaultProject": "agung-sari-baja-web"
 }

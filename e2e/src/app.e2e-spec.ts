@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angular-gh-pages app is running!');
+    expect(page.getTitleText()).toEqual('agung-sari-baja-web app is running!');
   });
 
   afterEach(async () => {
