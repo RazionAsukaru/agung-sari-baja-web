@@ -12,27 +12,47 @@
                 </p>
             </div>
 
-            <div class="col-xs-3 col-md-3">
+            <div class="col-xs-3 col-md-2">
                 <h6>Information</h6>
                 <ul class="footer-links">
-                    <li><a style="cursor: pointer;" (click)="goToLink('https://goo.gl/maps/sPeSAMuWoWjoyeL97')">About Us</a></li>
-                    <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                    <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                    <li>
+                        <b>Address</b>
+                        <p>jl. suka suka no 1 </p>
+                    </li>
+                    <li>
+                        <b>Phone Number</b>
+                        <p>+627878215164</p>
+                    </li>
+                    <li>
+                        <b>Email</b>
+                        <p>danny@gmail.com</p>
+                    </li>
+                    <!-- <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Email</a></li>
                     <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                    <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                    <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li> -->
                 </ul>
             </div>
 
-            <div class="col-xs-3 col-md-3">
+            <div class="col-xs-3 col-md-4">
                 <h6>Find Us</h6>
                 <ul class="social-icons">
-                    <li><a class="facebook" href="#">
+                    <li (click)="goToLink('https://www.facebook.com/')">
+                        <a class="facebook" style="cursor: pointer;">
                             <fa-icon [icon]="faFacebookF"></fa-icon>
                         </a>
+                        <span style="cursor: pointer;">&nbsp;&nbsp;Agung Sari Baja</span>
                     </li>
-                    <li><a class="twitter" href="#">
+                    <li (click)="goToLink('https://www.instagram.com/')">
+                        <a class="instagram" style="cursor: pointer;">
                             <fa-icon [icon]="faInstagram"></fa-icon>
                         </a>
+                        <span  style="cursor: pointer;">&nbsp;&nbsp;Agung Sari Baja</span>
+                    </li>
+                    <li (click)="goToLink('https://www.google.com/maps/')">
+                        <a class="gmaps" style="cursor: pointer;">
+                            <fa-icon [icon]="faMapMarkedAlt"></fa-icon>
+                        </a>
+                        <span  style="cursor: pointer;">&nbsp;&nbsp;Agung Sari Baja <small>On Google Maps</small></span>
                     </li>
                 </ul>
             </div>
@@ -46,19 +66,6 @@
                     <a href="#">Agung Sari Baja</a>.
                 </p>
             </div>
-
-            <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-                <ul class="social-icons">
-                    <li><a class="facebook" href="#">
-                            <fa-icon [icon]="faFacebookF"></fa-icon>
-                        </a>
-                    </li>
-                    <li><a class="twitter" href="#">
-                            <fa-icon [icon]="faInstagram"></fa-icon>
-                        </a>
-                    </li>
-                </ul>
-            </div> -->
         </div>
     </div>
 </footer>
